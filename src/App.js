@@ -41,7 +41,7 @@ function App() {
       </h2>
 
       </div>
-        </div>
+
 
       <div className="section-center">
         {people.map((person, personIndex) => {
@@ -75,6 +75,11 @@ function App() {
           <FiChevronRight />
         </button>
       </div>
+        
+        <h2 className="animation">Elevating Migrants to IT Excellence</h2>
+      
+
+      
     </section>
 
   );
