@@ -6,21 +6,6 @@ function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = React.useState(0);
 
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
-  const [direction, setDirection] = useState("center");
-
-  function handleMouseMove(event) {
-    setX(event.pageX);
-    setY(event.pageY);
-}
-
-  useEffect(() => {
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
 
   const handlePrevClick = () => {
     setDirection("left");
