@@ -7,28 +7,6 @@ function App() {
   const [index, setIndex] = React.useState(0);
 
 
-  const handlePrevClick = () => {
-    setDirection("left");
-  }
-
-  const handleNextClick = () => {
-    setDirection("right");
-  }
-
-  useEffect(() => {
-    if (direction === "center") {
-      setX(0);
-      setY(0);
-    } else if (direction === "left") {
-      setX(x - 100);
-      setY(y);
-    } else if (direction === "right") {
-      setX(x + 100);
-      setY(y);
-    }
-  }, [direction])
-
-
 
   const nextSlide = () => {
     setIndex((oldIndex) => {
