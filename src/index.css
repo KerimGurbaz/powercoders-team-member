@@ -284,34 +284,32 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
-@media only screen and (max-width: 600px) {
+
+   @media only screen and (max-width: 600px) {
   .animation {
     font-size: 1rem;
-    bottom: 15%;
+    bottom: 0%;
   }
 }
 @media only screen and (min-width: 600px) {
   .animation {
     font-size: 1.7rem;
-    bottom: 15%;
   }
 }
 @media only screen and (min-width: 768px) {
   .animation {
     font-size: 2rem;
-    bottom: 20%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .animation {
     font-size: 2.5rem;
-    bottom: 20%;
   }
 }
 @media only screen and (min-width: 1200px) {
   .animation {
-    font-size: 3.5rem;
-    bottom: 20%;
+    font-size: 3rem;
   }
 }
+
