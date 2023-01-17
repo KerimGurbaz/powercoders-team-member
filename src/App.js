@@ -77,6 +77,9 @@ function App() {
       </div>
         
         <h2 className="animation">Elevating Migrants to IT Excellence</h2>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       
 
       
